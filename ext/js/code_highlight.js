@@ -5,7 +5,7 @@ function codeHighlight() {
 
     var code = "body > div.card-panel.blue-grey.lighten-4 > table.testerka-srodek > tbody > tr > td:nth-child(2) > div > table > tbody > tr:nth-child(13) > td > div > pre";
 
-    $( code ).attr( 'class', 'cpp');
+    $( code ).attr( 'class', 'card-panel cpp');
 
     $( 'pre' ).each( function( i, block ) {
         hljs.highlightBlock( block );
