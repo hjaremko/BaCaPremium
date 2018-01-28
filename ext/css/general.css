@@ -65,3 +65,44 @@ body > footer > div.container > div > div.col.l6.s12 {
 #nav-mobile {
     margin-right: 5%;
 }
+
+.card-panel tr.status_OK {
+ background-color      : #00CC66;
+}
+.card-panel tr.status_WAIT {
+ background-color      : yellow;
+}
+.card-panel tr.status_QUE {
+ background-color      : yellow;
+}
+.card-panel tr.status_CMP {
+ background-color      : #FFCC99;
+}
+.card-panel tr.status_RTE {
+ background-color      : #FFCC99;
+}
+.card-panel tr.status_TLE {
+ background-color      : #FFCC99;
+}
+.card-panel tr.status_INT {
+ background-color      : #CC0000;
+}
+.card-panel tr.status_ANS {
+ background-color      : #FFCC99;
+}
+.card-panel tr.status_IGN {
+ background-color      : #9999FF;
+}
+.card-panel tr.status_RUL {
+ background-color      : #9999FF;
+}
+.card-panel tr.status_HEA {
+ background-color      : #9999FF;
+}
+.card-panel tr.status_REJ {
+ background-color      : #9999FF;
+}
+
+.card-panel tr.status_OUT {
+ background-color      : orange;
+}

@@ -1,10 +1,11 @@
 function hideLogs() {
     var logs_div = "body > div.card-panel.blue-grey.lighten-4 > table.testerka-srodek > tbody > tr > td:nth-child(2) > div > table > tbody > tr:nth-child(10) > td";
-    
+    $( logs_div + " > div > pre" ).attr( "class", "card-panel" );
+
     if ($("#logs_button").length === 0) {
         var button = document.createElement("button");
+        $( button ).attr( "class", "waves-effect waves-light btn blue-grey lighten-1" );
         button.id = "logs_button";
-        button.class = "waves-effect waves-light btn blue-grey lighten-1";
         button.width = 50;
         button.height = 23;
         button.innerHTML = "Pokaż logi";
